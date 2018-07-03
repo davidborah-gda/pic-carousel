@@ -1,31 +1,25 @@
-.grid-container {
-    display: grid;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 50%;
   }
 
-  .grid-item1 {
-    grid-column-start: 1;
-    grid-column-end: 1;
+  .buttons {
+    position: relative;
+    left: 50%;
   }
 
-  .grid-item2 {
-    grid-column-start: 2;
-    grid-column-end: 2;
+.container {
+      display: block;
+      width: 3000px;
   }
 
-  .grid-item3 {
-    grid-column-start: 3;
-    grid-column-end: 3;
-  }
-
-  .grid-item4 {
-    grid-column-start: 2;
-    grid-row-start: 2;
-  }
-
-  .destination {
-    height: 200px;
+  .viewer {
+      height: 100%;
+      width: 350px;
+      background-color: red;
   }
